@@ -4,7 +4,7 @@
 
 int main()
 {
-    //srand(time(NULL));
+    srand(time(NULL));
 
     Game game;                      // <-- New game object
 
@@ -12,8 +12,9 @@ int main()
     while(game.getPlaying() == true){       // <-- Run game while session exists
         game.mainMenu();
         
-
+/
 
     }    
+    return 0;
 
 }

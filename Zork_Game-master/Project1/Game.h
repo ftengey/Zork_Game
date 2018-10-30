@@ -21,11 +21,11 @@ class Game
     //operators 
 
     //functions
-        bool getPlaying() { return this->playing; }
+       inline bool getPlaying() { return this->playing; }
 
     private:
 
-        int choice;         // <-- Remember to change choice to a string var
+        std::string choice;         // <-- Remember to change choice to a string var
         bool playing;
 
     
